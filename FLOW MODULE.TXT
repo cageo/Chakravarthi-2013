@@ -1,0 +1,95 @@
+                                       MODTOHAFSD
+------------------------------------------------------------------------------------------------
+Getting started:
+
+Install JDK. Open the folder and double click Batch file named MODTOHAFSD and proceed as below 
+
+
+Step 1: File ----> Load file & goto Step 2 
+                       
+                           "OR"  
+                   Enter the data in the textfields manually & goto Step 3
+
+
+Step 2: Interpretation ----> Analysis-----> Modeling / Inversion
+
+
+             Model information 
+                     |
+                     |
+        -------------------------------------- 
+        |                    |               |  
+        |                    |               | 
+      
+      Offset             Halfstrike      Surface density 
+        |                    |               &
+   ------------         -----------        Lambda                     
+   |          |         |         |      
+Constant  Variable   Constant    Variable
+
+
+Step 3: Offset
+
+         a) Constant offset:- Enter the value in the textfield and click "Submit". Goto Step 4.
+       
+                                 OR
+
+         b) Variable offset:- Enter the values in the given table and press enter on your
+                        
+                             keyboard and finally press the "Submit" button. Goto Step 4.                  
+  
+
+Step 4: Halfstrike
+
+         a) Constant Halfstrike:- Enter the value in the textfield and click "Submit". Goto Step 5.
+
+                                 OR
+
+         b) Variable Halfstrike:- Enter the values in the given table and press enter on your
+                        
+                             keyboard and finally press the "Submit" button. Goto Step 5.
+
+
+Step 5: Surface density & Lambda :-Enter the value in the textfields and click "Submit". Goto Step 6.
+
+
+                     Interpretation
+                          |
+                          |
+ ------------------------------------------------------------
+ |                        |                 |               |       
+ |                        |                 |               |
+Regional               Draw/Edit         Analysis     Save & Print 
+ |                     polynomial           |    
+------------                           ------------              
+|          |                           |          |          
+Constant  Variable                  Modeling   Inversion
+
+
+Step 6: Regional
+       
+         a) Constant regional:- Enter the value in the textfield and click "Submit". Goto Step 8. 
+                                        
+                                             OR
+         
+         b) Variable regional:- Enter the degree of the polynomial and click "Submit". Bouguer gravity anomaly will appear on the screen.
+                                
+                                With the help of mouse clicks select control points in the anomaly panel to decipher appropriate regional trend. 
+
+				In case regional field has to be modified/edited goto step 7 else goto step 8. 
+                                
+                                Note:- The number of control points should exceed the selected degree of polynomial.
+
+
+Step 7: Draw/Edit polynomial:- Here user can edit the "Assumed/Estimated regional" with drag & drop mouse operations. Goto Step 8.
+
+
+Step 8: Analysis:- Both "Modeling" and "Inversion" techniques are available. User can select any of them.
+
+
+Step 9: Save & Print:- This option (under interpretation) helps the user to save the interpreted results in a html file. This file conatins the results
+
+                       in both graphical and ASCII formS.        
+
+Note: The number of gravity anomalies, station elevations, off strikes and offsets must be equal to the number of observations.                         
+                                 
